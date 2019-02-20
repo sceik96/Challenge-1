@@ -38,7 +38,7 @@ font-size: 30px;
 }
 
 #foodReserves {
-  height: 1000px;
+  height: 500px;
   width: 100%;
 }
 
@@ -55,7 +55,7 @@ font-size: 30px;
 } */
 
 #drinkReserves {
-  height: 1000px;
+  height: 500px;
   width: 100%
 }
 
@@ -79,7 +79,7 @@ font-size: 30px;
 }
 
 #distances {
-  height: 600px;
+  height: 400px;
   width: 100%;
 }
 
@@ -91,7 +91,7 @@ font-size: 30px;
 }
 
 #speed {
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 
@@ -115,7 +115,7 @@ font-size: 30px;
 }
 
 #thrusterTemp {
-  height: 1000px;
+  height: 500px;
   width: 100%;
 }
 
@@ -127,7 +127,7 @@ font-size: 30px;
 }
 
 #asteroidCollisions {
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 
