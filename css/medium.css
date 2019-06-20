@@ -1,0 +1,99 @@
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+
+
+/* eerste rij */
+
+.container1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.foodReserves {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.foodReservesTitle, .drinkReservesTitle {
+  width: 30%;
+}
+
+#foodReserves {
+  height: 400px;
+}
+
+.drinkReserves {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+}
+
+#drinkReserves {
+  height: 400px;
+}
+
+/* tweede rij */
+
+.container2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.distances {
+  grid-column: 1;
+  width: 100%;
+}
+
+.distancesTitle, {
+  width: 30%;
+}
+
+#distances {
+  height: 500px;
+}
+
+.speed {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.speedTitle {
+  width: 30%;
+}
+
+#speed {
+  height: 300px;
+}
+
+/* derde rij */
+
+.container3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.thrusterTemp {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.thrusterTempTitle, .asteroidCollisionsTitle {
+  width: 30%;
+}
+
+#thrusterTemp {
+  height: 300px;
+}
+
+.asteroidCollisions {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#asteroidCollisions {
+  height: 300px;
+}
+
+} /* media */

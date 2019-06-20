@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Corbel;
+  background-color: #32373A;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+header h1 {
+  color: white;
+}
+
+h2 {
+font-size: 30px;
+
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "foodReserves"
+  "drinkReserves"
+}
+
+.foodReserves {
+  display: grid;
+  grid-area: foodReserves;
+  height: 100%;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.foodReservesTitle, .drinkReservesTitle {
+  color: white;
+}
+
+#foodReserves {
+  height: 500px;
+  width: 100%;
+}
+
+.drinkReserves {
+  display: grid;
+  grid-area: drinkReserves;
+  height: 100%;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+#drinkReserves {
+  height: 500px;
+  width: 100%
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "distances"
+  "speed"
+}
+
+.distances {
+  grid-area: distances;
+  height: 100%;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.distancesTitle, .speedTitle {
+  color: white;
+}
+
+#distances {
+  height: 400px;
+  width: 100%;
+}
+
+.speed {
+  grid-area: speed;
+  height: 100%;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+#speed {
+  height: 400px;
+  width: 100%;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "thrusterTemp"
+  "asteroidCollisions"
+}
+
+.thrusterTemp {
+  grid-area: thrusterTemp;
+  height: 100%;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.thrusterTempTitle, .asteroidCollisionsTitle {
+  color: white;
+}
+
+#thrusterTemp {
+  height: 500px;
+  width: 100%;
+}
+
+.asteroidCollisions {
+  grid-area: asteroidCollisions;
+  height: 100%;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+#asteroidCollisions {
+  height: 400px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* . */
